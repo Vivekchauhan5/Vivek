@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CONCERT</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="maincss.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>VOICE INDIA</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>SINGING CONCERT</h2>
+                <p>I am student of Amity university pursing BCA . We are hosting a singing concert . We have invited may singers from different parts of India . Amity university kolkata has sponsered our concert.</p>
+                <button type = "button" class = "head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">Programes</a></li>
+                <li><a href = "#rooms">Book Ticket</a></li>
+                <li><a href = "#customers">Fan Followers</a></li>
+            </ul>
+            
+        </div>
+       
+        <div id = "modal"></div>
+       
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>Programme</h2>
+            </div>
+            <div class = "services-container">
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-microphone"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Arijit Singh</h2>
+                        <p>Arijit Singh (born 25 April 1987) is an Indian singer and music composer.[6][4][2] He sings predominantly in Hindi, Bengali but has also performed in various other Indian languages.<br>
+                        I will held on 17/12/2021 at 9:00 pm</p>
+                        
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-microphone"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Atif Aslam</h2>
+                        <p>Muhammad Atif Aslam (Urdu: محمد عاطف اسلم‎; born 12 March 1983; mostly referred to as Atif Aslam) is a Pakistani playback singer, song-writer, composer and an actor. Best known for his hit songs in the Pakistani and Indian film industries.<br>
+                            I will held on 17/12/2021 at 10:00 pm
+                        </p>
+                        
+                    </div>
+                </article>
+              
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-microphone"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Sonu Nigam</h2>
+                        <p>Sonu Nigam (born 30 July 1973) is an Indian singer, music director and actor. He is one of the most popular Bollywood singers of recent times and is recognised as one of the most versatile singers of all time.
+                        <br>
+                            I will held on 18/12/2021 at 3:00 pm</p>
+                        
+                    </div>
+                </article>
+              
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-microphone"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Jubin Nautiyal</h2>
+                        <p>Jubin Nautiyal (born 14 June 1989) is an Indian playback singer and performer. He was awarded Upcoming Male Vocalist of the Year at 8th Mirchi Music Awards for his song "Zindagi Kuch Toh Bata (Reprise)" from Bajrangi Bhaijaan. He also won the Rising Musical Star Award (2015) at Zee Business Awards.
+                        <br>
+                            I will held on 18/12/2021 at 9:00 pm</p>
+                        
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "Name">Name: </label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class = "form-item">
+                    <label for = "date"> Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "Programes">Programme: </label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class = "form-item">
+                    <label for = "Tickets">No of tickets: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <label for = "Payement">Payement: </label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>SINGERS</h2>
+            </div>
+            <div class = "rooms-container">
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/ar1.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Arijit Singh</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                I will held on 17/12/2021.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                It will start at 9:00 pm.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                The ticket cost is Rs. 500.
+                            </li>
+                        </ul>
+                        <p>Arijit Singh (born 25 April 1987) is an Indian singer and music composer.[6][4][2] He sings predominantly in Hindi, Bengali but has also performed in various other Indian languages. He is the recipient of a National Award and a record six Filmfare Awards. </p>
+                        <p>Arijit Singh is often cited as one of the best singers ever in the Indian and Pakistani music industry and has established a huge fan base throughout South Asia. He is also known as the "King of playback singing</p>
+                        <p class = "rate">
+                            <span>Rs .500.00 /</span> Per concert
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/aa1.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Atif Aslam</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                I will held on 17/12/2021.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                It will start at 10:00 pm.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                The ticket cost is Rs. 500.
+                            </li>
+                        </ul>
+                        <p>Muhammad Atif Aslam (Urdu: محمد عاطف اسلم‎; born 12 March 1983; mostly referred to as Atif Aslam) is a Pakistani playback singer, song-writer, composer and an actor.</p>
+                        <p>Best known for his hit songs in the Pakistani and Indian film industries.[1] He has recorded numerous chart-topping songs in both Pakistan and India and is known for his vocal belting technique.</p>
+                        <p class = "rate">
+                            <span>Rs . 500.00 /</span> Per Concert
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/sn1.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Sonu Nigam</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                I will held on 18/12/2021.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                It will start at 3:00 pm..
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                 The ticket cost is Rs. 500.
+                            </li>
+                        </ul>
+                        <p>Sonu Nigam (born 30 July 1973)[2] is an Indian singer, music director and actor.[3] He is one of the most popular Bollywood singers of recent times[4] and is recognised as one of the most versatile singers of all time.[5] He sings predominantly in Hindi and Kannada language films but has also sung in Odia,[6] Bengali, Gujarati, Tamil, Telugu, Marathi, Nepali, Malayalam, Kannada, Bhojpuri and other Indian languages</p>
+                        <p>Nigam has also released a number of non film albums and acted in some Hindi films.[8] He is the son of the singer, Agam Kumar Nigam. He is known as the “Modern Rafi” after his idol Mohammad Rafi.</p>
+                        <p class = "rate">
+                            <span>Rs .500.00 /</span> Per concert
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>Fan Followers</h2>
+                </div>
+                <div class = "customers-container">
+                 
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Vivek Chauhan</h3>
+                        <p>I am a huge fan of Arijit Singh . I am very much exicted to attain the concert. I have also invited my Friends in concert.</p>
+                        <img src = "images/vivek.jpg" alt = "customer image">
+                        <span>Vivek, India</span>
+                    </div>
+                   >
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Arka</h3>
+                        <p>I am a huge fan of Sonu Nigam . I am very much exicted to attain the concert. I have also invited my Friends in concert.</p>
+                        <img src = "images/vivek2.jpg" alt = "customer image">
+                        <span>Arka, India</span>
+                    </div>
+                   
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Ankit Baksi</h3>
+                        <p>I am a huge fan of Atif Aslam . I am very much exicted to attain the concert. I have also invited my Friends in concert.</p>
+                        <img src = "images/vivek3.jpg" alt = "customer image">
+                        <span>Ankit , India</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+       <script src="script.js"></script> 
+    </body>
+</html>
